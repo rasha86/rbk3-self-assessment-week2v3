@@ -1,14 +1,12 @@
-/*
-  Write your explanation here as a comment.
-  For example, you might say...
-    -This function has [insert time complexity], because [some line of code] means [something describing the nature of the implementation]
-*/
+/*   Write your explanation here as a comment.   For example, you might say...
+-This function has [insert time complexity], because [some line of code] means
+[something describing the nature of the implementation] */
 
 
 // Problem 1: Retrieval of a value from a hash table using the following function with regard to the size of the hash table. knowing that the key never get very large
 
 /*
- Complexity:
+ Complexity: This function has insert key as argument and the complexity is O(n) becuse there is aloop that depened on the value of input.
  */
 
 var retrieve = function(key) {
@@ -23,7 +21,7 @@ var retrieve = function(key) {
 // Problem 2: sortedArrayContainsItem with regard to the length of the passed-in array
 
 /*
- Complexity:
+ Complexity: nlog(n) becuase it search only for specific item in the array.
  */
 
 
@@ -37,10 +35,10 @@ var sortedArrayContainsItem = function(array, item) {
 };
 
 
-// Problem 3: hasDuplicates with regard to the length of the passed in array
+// Problem 3: hasDuplicates with regard to the length of the passed in array.
 
 /*
- Complexity:
+ Complexity:O(n) because it is loop in every item in te array.
  */
 
 var hasDuplicates = function(array) {
